@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Selectors</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>Selectors</h1>
+    <div class="head">
+        <ul>
+            <li>Simple selectors</li>
+            <li>Combinator selectors </li>
+            <li>Pseudo-class selectors</li>
+            <li>Pseudo-elements selectors </li>
+            <li>Attribute selectors </li>
+        </ul>
+    </div>
+    <h2>Simple Selector:</h2>
+    <h3>Element Selector:</h3>
+    <article>The element selector selects HTML elements based on the element name.</article>
+    <h3>ID Selector:</h3>
+    <div id="id">
+        <p>The element selector selects HTML elements based on the element name.</p>
+    </div>
+    <h3>Class Selector:</h3>
+    <div class="class">
+        <p>The element selector selects HTML elements based on the element name.</p>
+    </div>
+    <h3>Grouping Selector:</h3>
+    <div class="group">
+        <h4>The grouping selector selects all the HTML elements with the same style definitions.<h4>
+                <p>The element selector selects HTML elements based on the element name.</p>
+    </div>
+    <hr>
+
+    <h2>Combinator Selector:</h2>
+    <ul>
+        <li>descendant selector (space)</li>
+        <li>child selector (>)</li>
+        <li>adjacent sibling selector (+)</li>
+        <li>general sibling selector (~)</li>
+    </ul>
+    <h3>Descendant Selector:</h3>
+    <section>
+        <div class="descendant">
+            <p>The general sibling selector selects all elements that are next siblings of a specified element.</p>
+            <p>The element selector selects HTML elements based on the element name.</p>
+            <div>
+                <p>The descendant selector matches all elements that are descendants of a specified element.</p>
+            </div>
+        </div>
+        <p>The child selector selects all elements that are the children of a specified element.</p>
+        <p>The adjacent sibling selector is used to select an element that is directly after another specific element.
+        </p>
+    </section>
+    <h3>Child Selector:</h3>
+    <section>
+        <div class="child">
+            <p>The general sibling selector selects all elements that are next siblings of a specified element.</p>
+            <p>The element selector selects HTML elements based on the element name.</p>
+            <div>
+                <p>The descendant selector matches all elements that are descendants of a specified element.</p>
+            </div>
+        </div>
+        <p>The child selector selects all elements that are the children of a specified element.</p>
+        <p>The adjacent sibling selector is used to select an element that is directly after another specific element.
+        </p>
+    </section>
+    <h3>Adjacent Sibling Selector:</h3>
+    <section>
+        <div class="adjacent">
+            <p>The general sibling selector selects all elements that are next siblings of a specified element.</p>
+            <p>The element selector selects HTML elements based on the element name.</p>
+            <div>
+                <p>The descendant selector matches all elements that are descendants of a specified element.</p>
+            </div>
+        </div>
+        <p>The child selector selects all elements that are the children of a specified element.</p>
+        <p>The adjacent sibling selector is used to select an element that is directly after another specific element.
+        </p>
+    </section>
+    <h3>General Sibling Selector:</h3>
+    <section>
+        <div class="general">
+            <p>The general sibling selector selects all elements that are next siblings of a specified element.</p>
+            <p>The element selector selects HTML elements based on the element name.</p>
+            <div>
+                <p>The descendant selector matches all elements that are descendants of a specified element.</p>
+            </div>
+        </div>
+        <p>The child selector selects all elements that are the children of a specified element.</p>
+        <p>The adjacent sibling selector is used to select an element that is directly after another specific element.
+        </p>
+    </section>
+    <hr>
+    <h2>Pseudo-Class Selectors:</h2>
+    <div class="pseudo">
+        <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
+    </div>
+    <br>
+    <div class="hover">
+        <p>sushmitha</p>
+    </div>
+    <br>
+    <div class="display">
+        The child selector selects all elements that are the children of a specified element.
+        <span>sushmitha</span>
+    </div>
+    <br>
+    <h3>Firtst Child Pseudo-Class:</h3>
+    <div class="first">
+        <p>The general sibling selector selects all elements that are next siblings of a specified element.</p>
+        <p>The element selector selects HTML elements based on the element name.</p>
+    </div>
+    <br>
+    <div class="i">
+        <p>The general sibling <i>selector</i> selects all elements that are next <i>siblings</i> of a specified
+            element.</p>
+        <p>The element selector <i>selects</i> HTML elements based on the <i>element</i> name.</p>
+    </div>
+    <br>
+    <h3>lang Pseudo-Class:</h3>
+    <div class="lang">
+        <p>The general <q lang="no">sibling selector selects all elements that are next siblings</q> of a specified
+            element.</p>
+    </div>
+    <br>
+    <hr>
+    <h2>Pseudo-elements Selectors:</h2>
+    <h3>fisrt line Pseudo-elements:</h3>
+    <div class="firstline">
+        <p>The child selector selects all elements that are the children of a specified element.The adjacent sibling
+            selector is used to select an element that is directly after another specific element.The general sibling
+            selector selects all elements that are next siblings of a specified element.The element selector selects
+            HTML elements based on the element name.</p>
+    </div>
+    <br>
+    <h3>fisrt letter Pseudo-elements:</h3>
+    <div class="firstletter">
+        <p>The child selector selects all elements that are the children of a specified element.The adjacent sibling
+            selector is used to select an element that is directly after another specific element.The general sibling
+            selector selects all elements that are next siblings of a specified element.The element selector selects
+            HTML elements based on the element name.</p>
+    </div>
+    <br>
+    <h3>Multiple Pseudo-elements:</h3>
+    <div class="multiple">
+        <p>The child selector selects all elements that are the children of a specified element.The adjacent sibling
+            selector is used to select an element that is directly after another specific element.The general sibling
+            selector selects all elements that are next siblings of a specified element.The element selector selects
+            HTML elements based on the element name.</p>
+    </div>
+    <br>
+    <h3>Before Pseudo-elements:</h3>
+    <div class="before">
+        <p>The child selector selects all elements that are the children of a specified element.The adjacent sibling
+            selector is used to select an element that is directly after another specific element</p>
+    </div>
+    <br>
+    <h3>After Pseudo-elements:</h3>
+    <div class="after">
+        <p>The child selector selects all elements that are the children of a specified element.The adjacent sibling
+            selector is used to select an element that is directly after another specific element</p>
+    </div>
+    <br>
+    <h3>Marker Pseudo-elements:</h3>
+    <div class="marker">
+        <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+        </ul>
+    </div>
+    <br>
+    <h3>Selection Pseudo-elements:</h3>
+    <div class="selection">
+        <p>The child selector selects all elements that are the children of a specified element.The adjacent sibling
+            selector is used to select an element that is directly after another specific element</p>
+    </div>
+    <br>
+    <hr>
+    <h3>Attribute Selectors:</h3>
+    <div class="target">
+        <a href="https://www.rapidtables.com/" target="_blank">rapidtables</a>
+    </div>
+    <br>
+    <h3>Attribute value Selectors:</h3>
+    <div class="value">
+        <a href="https://www.rapidtables.com/" target="_blank">rapidtables</a>
+        <a href="http://www.disney.com" target="_blank">disney.com</a>
+        <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+    </div>
+    <h3>Attribute~="value" Selectors:</h3>
+    <div class="title">
+        <img src="./image/sky.jpg" title="sky" width="200" height="none">
+        <img src="./image/sky1.jpg" title="sky" width="200" height="none">
+        <img src="./image/feather.jpeg" title="feather" width="200" height="none">
+    </div>
+    <h3>[attribute|="value"] Selector:</h3>
+    <div class="top">
+        <p class="top-header">rapidtables</p>
+        <p class="top-text">rapidtables</p>
+        <p class="topcontent">rapidtables</p>
+    </div>
+    <h3>[attribute^="value"] Selector:</h3>
+    <div class="header">
+        <p class="top-header">rapidtables</p>
+        <p class="top-text">rapidtables</p>
+        <p class="topcontent">rapidtables</p>
+    </div>
+    <h3>[attribute$="value"] Selector:</h3>
+    <div class="content">
+        <p class="firsttest">rapidtables</p>
+        <p class="second">rapidtables</p>
+        <p class="mytest">rapidtables</p>
+    </div>
+    <h3>[attribute*="value"] Selector:</h3>
+    <div class="test">
+        <p class="firsttest">rapidtables</p>
+        <p class="second">rapidtables</p>
+        <p class="mytest">rapidtables</p>
+    </div>
+	<h3>Styling Forms:</h3>
+	<form name="input">
+	<label for="username">Username:</label>
+	<input type="text" name="username" id="username">
+	<br>
+	<label for="password">Password:</label>
+	<input type="password" name="password" id="password">
+	</form>
+	<hr>
+
+
+
+
+</body>
+
+</html>

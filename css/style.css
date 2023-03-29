@@ -1,0 +1,139 @@
+h1{
+	text-align:center;
+	color:#8B008B;
+}
+ul{
+	line-height:2;
+	color:#C71585;
+}
+.head ul li::marker{
+	color:#BA55D3;
+}
+h2{
+	color:#00008B;
+	text-decoration-line:underline;
+}
+h3{
+	color:#DC143C;
+	text-decoration-line:underline;
+}
+article{
+	color:green;
+	text-align:center;
+}
+#id{
+	color:red;
+}
+.class{
+	font-size:30px;
+	color:blue;
+}
+.group,h4{
+	color:green;
+}
+.descendant p{
+	color:violet;
+}
+.child>p{
+color:violet;
+}
+.adjacent+p{
+color:violet;
+}
+.general~p{
+color:violet;
+}
+.pseudo a:link{
+	color:red;
+}
+.pseudo:visited{
+	color:blue;
+}
+.pseudo:hover{
+	color:red;
+}
+.pseudo:active{
+	color:yellow;
+}
+.hover{
+	background-color:red;
+	color:white;
+	padding:20px;
+	text-align:center;
+}
+.hover:hover{
+	background-color:green;
+}
+span{
+	display:none;
+	background-color:red;
+	padding:20px;
+	color:white;
+	text-align:center;
+}
+.display:hover span{
+	display:block;
+}
+.first p:first-child{
+	color:yellow;
+}
+.i i:first-child{
+	color:blue;
+}
+q:lang(no){
+	
+ quotes:"~" "~"
+}
+.firstline::first-line{
+	color:red;
+}
+.firstletter::first-letter{
+	color:red;
+}
+.multiple::first-line{
+	color:red;
+}
+.multiple::first-letter{
+	color:green;
+	font-size:xx-large;
+}
+.before P::before{
+	content:"para-";
+}
+.after P::after{
+	content:"-para";
+}
+.marker ul li::marker{
+	color:blue;
+}
+.selection p::selection{
+	color:blue;
+	background-color:green;
+}
+.target a[target]{
+	color:red;
+	background-color:green;
+}
+.value a[target="_blank"]{
+	color:green;
+
+	background-color:blue;
+}
+.title [title~="sky"]{
+	border:5px solid green;
+}
+.top [class|="top"]{
+	background-color:blue;
+}
+.header [class^="top"]{
+	background-color:red;
+}
+.content [class$="test"]{
+	background-color:violet;
+}
+.test [class*="te"]{
+	background-color:	#FA8072;
+}
+input[type="text"]{
+	background-color:blue;
+}
